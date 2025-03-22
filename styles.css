@@ -1,0 +1,419 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.summer-sale {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 14px;
+}
+.summer-sale .shop-btn {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.summer-sale .language-button {
+  margin-left: 230px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.navigation {
+  padding-top: 48px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #b3b3b3;
+}
+.navigation .logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.navigation .nav-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+.navigation .actions {
+  display: flex;
+  gap: 24px;
+}
+.navigation .actions .search-input {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 7px 12px 7px 10px;
+}
+.navigation .actions .search-input input {
+  border: none;
+  background-color: inherit;
+  outline: none;
+}
+
+.products-intro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-menu {
+  border-right: 1px solid #b3b3b3;
+  padding-top: 40px;
+  padding-right: 16px;
+  padding-left: 30px;
+}
+.content-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+.content-menu ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.iphone14 {
+  width: 70%;
+  padding-top: 40px;
+}
+
+.section-header {
+  color: #db4444;
+  font-size: 16px;
+  position: relative;
+}
+.section-header p {
+  padding-left: 25px;
+}
+.section-header::before {
+  content: "";
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.flash-sales {
+  padding-top: 150px;
+  padding-left: 135px;
+}
+.flash-sales .time-left {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.flash-sales .time-left h2 {
+  font-size: 36px;
+  padding-right: 87px;
+}
+.flash-sales .time-left .timer-wrapper {
+  display: flex;
+  gap: 22px;
+}
+.flash-sales .time-left .red-dots {
+  color: #db4444;
+  font-size: 32px;
+  align-self: flex-end;
+}
+.flash-sales .time-left .days,
+.flash-sales .time-left .hours,
+.flash-sales .time-left .minutes,
+.flash-sales .time-left .seconds {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.flash-sales .time-left .timer-headers {
+  font-size: 12px;
+}
+.flash-sales .time-left .timer-initials {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.navigation-btns {
+  display: flex;
+  justify-self: flex-end;
+  margin-left: auto;
+  padding-right: 140px;
+}
+.navigation-btns img {
+  background: #f5f5f5;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.sales-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  padding-bottom: 60px;
+  border-bottom: 0.5px solid #b3b3b3;
+}
+.sales-section .sale-products {
+  padding-top: 40px;
+  display: flex;
+  gap: 50px;
+}
+.sales-section .sale-products .product {
+  width: 250px;
+  height: 250px;
+  background-color: #b3b3b3;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sales-section .sale-products .product p {
+  width: 55px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4444;
+}
+.sales-section .sale-products .product-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sales-section .sale-products .product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sales-section .sale-products .product-actions img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding: 5px;
+}
+.sales-section .sale-products .product-text {
+  line-height: 24px;
+}
+.sales-section .sale-products .product-text .new-price {
+  color: #db4444;
+}
+.sales-section .sale-products .product-text .old-price {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.59);
+}
+.sales-section .sale-products .product-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.sales-section .sale-products .product-review {
+  display: flex;
+  align-items: center;
+}
+.sales-section .sale-products .product-review--amount {
+  opacity: 50%;
+}
+.sales-section .view-products-btn {
+  padding: 16px 48px;
+  background-color: #db4444;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.categories {
+  padding-top: 150px;
+  padding-left: 135px;
+  padding-bottom: 60px;
+  border-bottom: 0.5px solid #b3b3b3;
+}
+.categories .categories-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.categories .categories-navigation h2 {
+  font-size: 36px;
+  padding-right: 87px;
+}
+.categories .browse-categories {
+  display: flex;
+  gap: 30px;
+}
+.categories .browse-categories .category {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 140px;
+  margin-top: 60px;
+}
+.categories .browse-categories .camera {
+  background-color: #db4444;
+  color: #ffffff;
+}
+
+.best-selling-products .product-actions {
+  align-items: flex-end;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
