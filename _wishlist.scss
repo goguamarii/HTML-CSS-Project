@@ -1,0 +1,86 @@
+.wishlist-container {
+  width: 1170px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 135px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+
+  .wishlist {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .bag-btn {
+    width: 223px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: white;
+  }
+}
+#add-to-cart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+
+  .cart1 {
+    margin-right: 10px;
+  }
+}
+
+.wishlist-sections-header {
+  color: #db4444;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  width: 100%;
+
+  p {
+    padding-left: 25px;
+  }
+
+  &::before {
+    content: "";
+    width: 20px;
+    height: 40px;
+    background-color: #db4444;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+  }
+}
+
+#for-you {
+  color: black;
+
+  &::before {
+    bottom: 20px;
+  }
+}
+
+.see-all-btn {
+  width: 150px;
+  height: 56px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#best-selling-products-header {
+  padding-left: 0;
+  width: 100%;
+}
