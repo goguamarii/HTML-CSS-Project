@@ -416,4 +416,54 @@ body {
 .best-selling-products .product-actions {
   align-items: flex-end;
   width: 100%;
+}
+
+.jbl-sale {
+  background-color: black;
+  display: flex;
+  margin: 140px 135px;
+  color: #ffffff;
+  padding: 60px;
+}
+.jbl-sale__main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.jbl-sale__main--categories {
+  color: #00ff66;
+}
+.jbl-sale__main--header {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.jbl-sale__main--btn {
+  background-color: #00ff66;
+  border-radius: 4px;
+  color: inherit;
+  font-family: inherit;
+  padding: 16px 48px;
+  border: none;
+}
+.jbl-sale__main--time-left {
+  display: flex;
+  gap: 24px;
+  margin: 40px 0;
+}
+.jbl-sale__main--time-left section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  color: black;
+  font-size: 11px;
+}
+.jbl-sale__main--time-left section p:first-child {
+  font-weight: 600;
+  font-size: 16px;
 }/*# sourceMappingURL=styles.css.map */
