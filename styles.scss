@@ -25,6 +25,7 @@ body {
     font-size: inherit;
     font-weight: 600;
     text-decoration: underline;
+    cursor: pointer;
   }
 
   .language-button {
@@ -37,6 +38,7 @@ body {
     font-family: inherit;
     font-size: inherit;
     font-weight: 400;
+    cursor: pointer;
   }
 }
 
@@ -77,6 +79,8 @@ body {
     }
   }
 }
+
+// Header Responsiveness Media
 
 .products-intro {
   display: flex;

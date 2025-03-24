@@ -380,6 +380,7 @@ body {
   font-size: inherit;
   font-weight: 600;
   text-decoration: underline;
+  cursor: pointer;
 }
 .summer-sale .language-button {
   margin-left: 230px;
@@ -391,6 +392,7 @@ body {
   font-family: inherit;
   font-size: inherit;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .navigation {
