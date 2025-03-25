@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .summer-sale {
   background-color: black;
   color: white;
@@ -16,6 +21,7 @@ body {
   align-items: center;
   height: 50px;
   font-size: 14px;
+  min-width: 1024px;
 
   .shop-btn {
     background-color: transparent;
@@ -188,7 +194,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 60px;
-  max-width: 1250px;
   flex-wrap: wrap;
   padding-bottom: 60px;
   border-bottom: 0.5px solid #b3b3b3;
@@ -354,7 +359,7 @@ body {
   margin: 140px 135px;
   color: #ffffff;
   padding: 60px;
-
+  overflow: hidden;
   &__main {
     display: flex;
     flex-direction: column;
@@ -575,7 +580,7 @@ body {
 // Footer style
 .footer-container {
   width: 100%;
-  height: 440px;
+  max-height: 440px;
   margin-top: 12px;
   background-color: black;
   color: rgba(255, 255, 255, 0.8);
@@ -634,3 +639,5 @@ body {
     color: white;
   }
 }
+
+@import "./tablet";

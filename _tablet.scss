@@ -1,0 +1,219 @@
+@media (min-width: 800px) and (max-width: 1024px) {
+  // SUMMER SALE
+  .summer-sale {
+    justify-content: space-around;
+
+    width: 100%;
+    min-width: 800px;
+
+    .language-button {
+      margin-left: 30px;
+    }
+  }
+
+  //   NAVIGATION
+  .navigation {
+    padding-top: 28px;
+
+    .logo {
+      font-size: 14px;
+    }
+
+    .nav-btns {
+      gap: 10px;
+    }
+
+    .actions {
+      gap: 14px;
+      .search-input {
+        padding: 7px;
+      }
+    }
+  }
+
+  //   FLASH SALES
+  .flash-sales {
+    padding-top: 80px;
+    padding-left: 50px;
+
+    .time-left {
+      padding-top: 25px;
+
+      h2 {
+        font-size: 14px;
+        padding-right: 37px;
+      }
+      .timer-wrapper {
+        gap: 15px;
+      }
+      .red-dots {
+        font-size: 16px;
+      }
+      .days,
+      .hours,
+      .minutes,
+      .seconds {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+      }
+      .timer-headers {
+        font-size: 12px;
+      }
+
+      .timer-initials {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .sales-section {
+    gap: 30px;
+    padding-bottom: 30px;
+    .sale-products {
+      padding-top: 20px;
+
+      gap: 10px;
+      .product {
+        width: 150px;
+        height: 150px;
+
+        p {
+          width: 55px;
+        }
+
+        &-img {
+          width: 100px;
+        }
+        &-actions {
+          img {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            padding: 5px;
+          }
+        }
+
+        &-text {
+          line-height: 15px;
+
+          p {
+            font-size: 12px;
+          }
+        }
+        &-name {
+          font-size: 12px;
+        }
+      }
+    }
+    .view-products-btn {
+      padding: 16px 48px;
+      background-color: #db4444;
+      color: #ffffff;
+      text-align: center;
+      border: none;
+      border-radius: 4px;
+      align-self: center;
+    }
+  }
+
+  //   CATEG0RIES
+  .categories {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+
+    .categories-navigation {
+      padding-top: 10px;
+
+      h2 {
+        font-size: 20px;
+        padding-right: 60px;
+      }
+    }
+    .browse-categories {
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  }
+
+  // new arrivals
+
+  .new-arrivals {
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+
+    h2 {
+      font-size: 20px;
+      margin: 20px 0 60px 0;
+      font-weight: 600;
+    }
+
+    .new-arrival-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  //   SERVICES
+  .service-icons {
+    width: 100%;
+    min-width: 100px;
+    gap: 25px;
+
+    .capital {
+      font-size: 15px;
+    }
+
+    .lowercase {
+      font-size: 12px;
+    }
+
+    .service-icon {
+      width: 40px;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      border: 8px solid #b3b3b3;
+      margin-bottom: 18px;
+    }
+  }
+
+  // FOOTER
+  .footer-container {
+    font-size: 12px;
+
+    .footer-list {
+      margin: 30px;
+      padding-top: 10px;
+    }
+
+    .copyright {
+      margin-bottom: 10px;
+    }
+
+    .bolding {
+      font-size: 14px;
+    }
+  }
+}
+
+// JBL
+.jbl-sale {
+  position: relative;
+
+  &__main {
+    z-index: 1;
+  }
+
+  .img-content {
+    position: absolute;
+    z-index: 0;
+  }
+}
